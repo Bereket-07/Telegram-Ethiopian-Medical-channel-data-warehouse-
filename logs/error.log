@@ -1,0 +1,7 @@
+2024-10-11 11:56:30,591 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'DoctorsET_data.csv'
+2024-10-11 11:56:30,594 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'CheMed123_data.csv'
+2024-10-11 11:56:30,598 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'EAHCI_data.csv'
+2024-10-11 11:56:30,601 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'lobelia4cosmetics_data.csv'
+2024-10-11 11:56:30,607 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'yetenaweg_data.csv'
+2024-10-11 11:58:39,073 - ERROR - error occured while merging the dataframes
+2024-10-11 12:27:02,604 - ERROR - error occured while standardizing the data frame : cannot access local variable 'clean_text' where it is not associated with a value

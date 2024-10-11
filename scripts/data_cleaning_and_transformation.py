@@ -1,5 +1,5 @@
-import os , logging
-import pandas
+import os , logging , re
+import pandas as pd
 
 logging.basicConfig(
     level=logging.DEBUG,  # Set the logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
@@ -37,3 +37,45 @@ logger.addHandler(info_handler)
 logger.addHandler(error_handler)
 
 
+def load_data(path):
+    logger.info("loading the data ")
+    try:
+        return pd.read_csv(path)
+    except Exception as e:
+        logger.error(f"error occured while loading the data: {e}")
+def merge_the_data_frames(dataframes):
+    logger.info("merging the whole data frames into one big data frame")
+    try:
+        return pd.concat(dataframes,ignore_index=True)
+    except Exception as e:
+        logger.error(f"error occured while merging the dataframes")
+def check_for_missing_values(df):
+    logger.info("checking for missing values")
+    try:
+        logger.info(f"missing values detected: \n {df.isnull().sum()}")
+    except Exception as e:
+        logger.error(f"error occured while checking for missing values")
+def Standardixing_the_data(df):
+    logger.info("standardizing the data frame")
+    try:
+        # Standardize text fields
+        df['Channel Title'] = df['Channel Title'].str.lower().str.strip()
+        df['Channel Username'] = df['Channel Username'].str.lower().str.strip()
+        df['Media Path'] = df['Media Path'].apply(lambda x: x.replace('\\', '/'))  # convert to consistent path format
+        df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+
+        # Apply the function to the Message column
+        logger.info("cleaining the message column ")
+        df['Message'] = df['Message'].apply(clean_text)
+        logger.info("the message column cleaned sucessfully")
+        return df
+    except Exception as e:
+        logger.error(f"error occured while standardizing the data frame : {e}")
+def clean_text(text):
+    # Remove emojis
+    text = re.sub(r'[^\w\s\u1200-\u137F]', '', text)  # Keeps English, Amharic, spaces, and removes emojis
+    # Replace multiple spaces and newlines with a single space
+    text = re.sub(r'\s+', ' ',text)
+    # Remove leading and trailing whitespace
+    text = text.strip()
+    return text
