@@ -1,0 +1,163 @@
+2024-10-11 11:56:30,587 - INFO - loading the data 
+2024-10-11 11:56:30,591 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'DoctorsET_data.csv'
+2024-10-11 11:56:30,592 - INFO - loading the data 
+2024-10-11 11:56:30,594 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'CheMed123_data.csv'
+2024-10-11 11:56:30,596 - INFO - loading the data 
+2024-10-11 11:56:30,598 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'EAHCI_data.csv'
+2024-10-11 11:56:30,599 - INFO - loading the data 
+2024-10-11 11:56:30,601 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'lobelia4cosmetics_data.csv'
+2024-10-11 11:56:30,605 - INFO - loading the data 
+2024-10-11 11:56:30,607 - ERROR - error occured while loading the data: [Errno 2] No such file or directory: 'yetenaweg_data.csv'
+2024-10-11 11:56:50,193 - INFO - loading the data 
+2024-10-11 11:56:50,204 - INFO - loading the data 
+2024-10-11 11:56:50,208 - INFO - loading the data 
+2024-10-11 11:56:50,228 - INFO - loading the data 
+2024-10-11 11:56:50,241 - INFO - loading the data 
+2024-10-11 11:58:38,968 - INFO - loading the data 
+2024-10-11 11:58:38,980 - INFO - loading the data 
+2024-10-11 11:58:38,985 - INFO - loading the data 
+2024-10-11 11:58:39,023 - INFO - loading the data 
+2024-10-11 11:58:39,042 - INFO - loading the data 
+2024-10-11 11:58:39,072 - INFO - merging the whole data frame into one big data frame
+2024-10-11 11:58:39,073 - ERROR - error occured while merging the dataframes
+2024-10-11 11:59:15,172 - INFO - loading the data 
+2024-10-11 11:59:15,179 - INFO - loading the data 
+2024-10-11 11:59:15,189 - INFO - loading the data 
+2024-10-11 11:59:15,202 - INFO - loading the data 
+2024-10-11 11:59:15,216 - INFO - loading the data 
+2024-10-11 11:59:15,230 - INFO - merging the whole data frames into one big data frame
+2024-10-11 12:00:10,902 - INFO - loading the data 
+2024-10-11 12:00:10,915 - INFO - loading the data 
+2024-10-11 12:00:10,921 - INFO - loading the data 
+2024-10-11 12:00:10,934 - INFO - loading the data 
+2024-10-11 12:00:10,947 - INFO - loading the data 
+2024-10-11 12:00:10,962 - INFO - merging the whole data frames into one big data frame
+2024-10-11 12:00:57,511 - INFO - checking for missing values
+2024-10-11 12:01:39,122 - INFO - loading the data 
+2024-10-11 12:01:39,140 - INFO - loading the data 
+2024-10-11 12:01:39,145 - INFO - loading the data 
+2024-10-11 12:01:39,158 - INFO - loading the data 
+2024-10-11 12:01:39,170 - INFO - loading the data 
+2024-10-11 12:01:39,184 - INFO - merging the whole data frames into one big data frame
+2024-10-11 12:01:39,225 - INFO - checking for missing values
+2024-10-11 12:01:39,228 - INFO - missing values detected: Channel Title         0
+Channel Username      0
+ID                    0
+Message             327
+Date                  0
+Media Path          132
+dtype: int64
+2024-10-11 12:01:58,865 - INFO - loading the data 
+2024-10-11 12:01:58,877 - INFO - loading the data 
+2024-10-11 12:01:58,881 - INFO - loading the data 
+2024-10-11 12:01:58,896 - INFO - loading the data 
+2024-10-11 12:01:58,909 - INFO - loading the data 
+2024-10-11 12:01:58,923 - INFO - merging the whole data frames into one big data frame
+2024-10-11 12:01:58,991 - INFO - checking for missing values
+2024-10-11 12:01:58,994 - INFO - missing values detected: 
+ Channel Title         0
+Channel Username      0
+ID                    0
+Message             327
+Date                  0
+Media Path          132
+dtype: int64
+2024-10-11 12:04:27,697 - INFO - checking for missing values
+2024-10-11 12:04:27,700 - INFO - missing values detected: 
+ Channel Title       0
+Channel Username    0
+ID                  0
+Message             0
+Date                0
+Media Path          0
+dtype: int64
+2024-10-11 12:27:02,356 - INFO - loading the data 
+2024-10-11 12:27:02,375 - INFO - loading the data 
+2024-10-11 12:27:02,383 - INFO - loading the data 
+2024-10-11 12:27:02,406 - INFO - loading the data 
+2024-10-11 12:27:02,426 - INFO - loading the data 
+2024-10-11 12:27:02,448 - INFO - merging the whole data frames into one big data frame
+2024-10-11 12:27:02,508 - INFO - checking for missing values
+2024-10-11 12:27:02,513 - INFO - missing values detected: 
+ Channel Title         0
+Channel Username      0
+ID                    0
+Message             327
+Date                  0
+Media Path          132
+dtype: int64
+2024-10-11 12:27:02,551 - INFO - checking for missing values
+2024-10-11 12:27:02,556 - INFO - missing values detected: 
+ Channel Title       0
+Channel Username    0
+ID                  0
+Message             0
+Date                0
+Media Path          0
+dtype: int64
+2024-10-11 12:27:02,572 - INFO - standardizing the data frame
+2024-10-11 12:27:02,602 - INFO - cleaining the message column 
+2024-10-11 12:27:02,604 - ERROR - error occured while standardizing the data frame : cannot access local variable 'clean_text' where it is not associated with a value
+2024-10-11 12:27:50,165 - INFO - loading the data 
+2024-10-11 12:27:50,180 - INFO - loading the data 
+2024-10-11 12:27:50,186 - INFO - loading the data 
+2024-10-11 12:27:50,203 - INFO - loading the data 
+2024-10-11 12:27:50,218 - INFO - loading the data 
+2024-10-11 12:27:50,237 - INFO - merging the whole data frames into one big data frame
+2024-10-11 12:27:50,292 - INFO - checking for missing values
+2024-10-11 12:27:50,296 - INFO - missing values detected: 
+ Channel Title         0
+Channel Username      0
+ID                    0
+Message             327
+Date                  0
+Media Path          132
+dtype: int64
+2024-10-11 12:27:50,404 - INFO - checking for missing values
+2024-10-11 12:27:50,411 - INFO - missing values detected: 
+ Channel Title       0
+Channel Username    0
+ID                  0
+Message             0
+Date                0
+Media Path          0
+dtype: int64
+2024-10-11 12:27:50,441 - INFO - standardizing the data frame
+2024-10-11 12:27:50,456 - INFO - cleaining the message column 
+2024-10-11 12:27:50,551 - INFO - the message column cleaned sucessfully
+2024-10-11 16:36:55,632 - INFO - loading the data 
+2024-10-11 16:36:55,653 - INFO - loading the data 
+2024-10-11 16:36:55,658 - INFO - loading the data 
+2024-10-11 16:36:55,672 - INFO - loading the data 
+2024-10-11 16:36:55,692 - INFO - loading the data 
+2024-10-11 16:36:55,712 - INFO - merging the whole data frames into one big data frame
+2024-10-11 16:36:55,762 - INFO - checking for missing values
+2024-10-11 16:36:55,769 - INFO - missing values detected: 
+ Channel Title         0
+Channel Username      0
+ID                    0
+Message             327
+Date                  0
+Media Path          132
+dtype: int64
+2024-10-11 16:36:55,835 - INFO - checking for missing values
+2024-10-11 16:36:55,839 - INFO - missing values detected: 
+ Channel Title       0
+Channel Username    0
+ID                  0
+Message             0
+Date                0
+Media Path          0
+dtype: int64
+2024-10-11 16:36:55,856 - INFO - standardizing the data frame
+2024-10-11 16:36:55,870 - INFO - cleaining the message column 
+2024-10-11 16:36:55,947 - INFO - the message column cleaned sucessfully
+2024-10-11 18:24:03,531 - INFO - storing the data frame into the database
+2024-10-11 18:28:27,323 - INFO - storing the data frame into the database
+2024-10-11 18:28:27,378 - INFO - loading the csv file 
+2024-10-11 18:28:27,398 - INFO - srotring the dataframes into the sql database 
+2024-10-11 18:28:27,867 - INFO - the dataframe stored to the database sucessfully
+2024-10-11 18:29:26,215 - INFO - storing the data frame into the database
+2024-10-11 18:29:26,277 - INFO - loading the csv file 
+2024-10-11 18:29:26,296 - INFO - srotring the dataframes into the sql database 
+2024-10-11 18:29:26,562 - INFO - the dataframe stored to the database sucessfully
