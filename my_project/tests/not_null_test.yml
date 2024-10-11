@@ -1,0 +1,7 @@
+version: 2
+models:
+  - name: cleaned_data
+    columns:
+      - name: "ID"
+        tests:
+          - not_null
