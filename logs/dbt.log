@@ -1,0 +1,92 @@
+[0m17:52:07.402065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001550C715EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001550C714F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001550AB27620>]}
+
+
+============================== 17:52:07.412408 | 950b5de2-f066-4853-9e6f-1c48961f54a4 ==============================
+[0m17:52:07.412408 [info ] [MainThread]: Running with dbt=1.8.7
+[0m17:52:07.416925 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\bekib\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init my_project', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:52:07.446406 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/bekib/.dbt')}
+[0m17:52:07.452037 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m17:52:07.454732 [debug] [MainThread]: Starter project path: C:\Users\bekib\Desktop\10ACADAMY\WEEK-SEVEN\week-7\.week-7\Lib\site-packages\dbt\include\starter_project
+[0m17:52:07.502023 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:52:07.504719 [info ] [MainThread]: Setting up your profile.
+[0m17:52:07.508641 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m17:52:07.512599 [debug] [MainThread]: Command `dbt init` failed at 17:52:07.512599 after 0.49 seconds
+[0m17:52:07.512599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001550C715EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001550C3D8440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001550C7AEC90>]}
+[0m17:52:07.512599 [debug] [MainThread]: Flushing usage events
+[0m17:52:58.663013 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36DBA11F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36DD531A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36DCEAE10>]}
+
+
+============================== 17:52:58.673199 | d9e6d338-89a1-471b-b207-315301e5f769 ==============================
+[0m17:52:58.673199 [info ] [MainThread]: Running with dbt=1.8.7
+[0m17:52:58.673199 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\bekib\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init dbt_', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:52:58.710720 [debug] [MainThread]: Starter project path: C:\Users\bekib\Desktop\10ACADAMY\WEEK-SEVEN\week-7\.week-7\Lib\site-packages\dbt\include\starter_project
+[0m17:52:58.747950 [info ] [MainThread]: 
+Your new dbt project "dbt_" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:52:58.747950 [info ] [MainThread]: Setting up your profile.
+[0m17:52:58.747950 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m17:52:58.755964 [debug] [MainThread]: Command `dbt init` failed at 17:52:58.755964 after 0.38 seconds
+[0m17:52:58.756838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36E09DBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36E3CD520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36E3CF440>]}
+[0m17:52:58.757931 [debug] [MainThread]: Flushing usage events
+[0m17:55:53.468016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A110FA01D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1110EDEE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A110FA2AE0>]}
+
+
+============================== 17:55:53.468016 | 2372392e-a0c3-414d-ab98-ed4213d02954 ==============================
+[0m17:55:53.468016 [info ] [MainThread]: Running with dbt=1.8.7
+[0m17:55:53.477275 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\bekib\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init my_project', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:55:53.498217 [debug] [MainThread]: Starter project path: C:\Users\bekib\Desktop\10ACADAMY\WEEK-SEVEN\week-7\.week-7\Lib\site-packages\dbt\include\starter_project
+[0m17:55:53.538190 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:55:53.547836 [info ] [MainThread]: Setting up your profile.
+[0m17:55:53.549537 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m17:55:53.549537 [debug] [MainThread]: Command `dbt init` failed at 17:55:53.549537 after 0.40 seconds
+[0m17:55:53.549537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A1110EDEE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A111FE9370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A111C2CB90>]}
+[0m17:55:53.549537 [debug] [MainThread]: Flushing usage events

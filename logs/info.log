@@ -152,3 +152,12 @@ dtype: int64
 2024-10-11 16:36:55,856 - INFO - standardizing the data frame
 2024-10-11 16:36:55,870 - INFO - cleaining the message column 
 2024-10-11 16:36:55,947 - INFO - the message column cleaned sucessfully
+2024-10-11 18:24:03,531 - INFO - storing the data frame into the database
+2024-10-11 18:28:27,323 - INFO - storing the data frame into the database
+2024-10-11 18:28:27,378 - INFO - loading the csv file 
+2024-10-11 18:28:27,398 - INFO - srotring the dataframes into the sql database 
+2024-10-11 18:28:27,867 - INFO - the dataframe stored to the database sucessfully
+2024-10-11 18:29:26,215 - INFO - storing the data frame into the database
+2024-10-11 18:29:26,277 - INFO - loading the csv file 
+2024-10-11 18:29:26,296 - INFO - srotring the dataframes into the sql database 
+2024-10-11 18:29:26,562 - INFO - the dataframe stored to the database sucessfully

@@ -61,13 +61,17 @@ def load_data():
     try:
         # connect to the datbase
         engine = create_engine(DATABASE_URL)
+        logger.info("loading the csv file ")
         # load the data 
         df = pd.read_csv('../data/scraped_data.csv')
+        logger.info("srotring the dataframes into the sql database ")
         # Store the Dataframe into the databse
         df.to_sql('medical_data' , engine , if_exists='replace',index=False)
+        logger.info(f"the dataframe stored to the database sucessfully")
     except Exception as e:
         logger.error(f"Error occured while storing the Dataframe into the database")
 
-        
+if __name__ == "__main__":
+    load_data()     
 
 
