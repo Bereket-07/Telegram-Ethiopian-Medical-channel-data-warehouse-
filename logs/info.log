@@ -161,3 +161,30 @@ dtype: int64
 2024-10-11 18:29:26,277 - INFO - loading the csv file 
 2024-10-11 18:29:26,296 - INFO - srotring the dataframes into the sql database 
 2024-10-11 18:29:26,562 - INFO - the dataframe stored to the database sucessfully
+2024-10-11 18:45:41,211 - INFO - loading the data 
+2024-10-11 18:45:41,274 - INFO - loading the data 
+2024-10-11 18:45:41,281 - INFO - loading the data 
+2024-10-11 18:45:41,303 - INFO - loading the data 
+2024-10-11 18:45:41,323 - INFO - loading the data 
+2024-10-11 18:45:41,343 - INFO - merging the whole data frames into one big data frame
+2024-10-11 18:45:41,382 - INFO - checking for missing values
+2024-10-11 18:45:41,392 - INFO - missing values detected: 
+ Channel Title         0
+Channel Username      0
+ID                    0
+Message             327
+Date                  0
+Media Path          132
+dtype: int64
+2024-10-11 18:45:41,422 - INFO - checking for missing values
+2024-10-11 18:45:41,431 - INFO - missing values detected: 
+ Channel Title       0
+Channel Username    0
+ID                  0
+Message             0
+Date                0
+Media Path          0
+dtype: int64
+2024-10-11 18:45:41,442 - INFO - standardizing the data frame
+2024-10-11 18:45:41,471 - INFO - cleaining the message column 
+2024-10-11 18:45:41,534 - INFO - the message column cleaned sucessfully
