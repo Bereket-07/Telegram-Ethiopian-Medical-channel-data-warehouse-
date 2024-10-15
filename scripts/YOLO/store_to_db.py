@@ -1,5 +1,5 @@
 import os , logging
-from sqlalchemy import create_engine, Column , Integer , String , Float
+from sqlalchemy import create_engine, Column , Integer , String , Float , LargeBinary
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import making_data_frame_the_detected_data as mk
@@ -64,6 +64,7 @@ class DetectionData(Base):
     width = Column(Float, nullable=False)
     height = Column(Float, nullable=False)
     confidence = Column(Float, nullable=False)
+    image_data = Column(LargeBinary, nullable=True)  # Column for image data
 
 # create the table in the database 
 def create_the_db_table():
@@ -74,26 +75,45 @@ def create_the_db_table():
         logger.info("database table created sucessfully")
     except Exception as e:
         logger.error(f"error occured while creating table in the database")
-def insert_data(df):
+# Define acceptable image file extensions
+image_extensions = ('.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff')
+
+def insert_data(df, image_folder_path):
     Session = sessionmaker(bind=engine)
     session = Session()
     try:
-        logger.info("Inserting data into the database ...")
+        logger.info("Inserting data into the database...")
         for _, row in df.iterrows():
-            detection = DetectionData(
-                filename=row['filename'],
-                class_id=row['class_id'],
-                x_center=row['x_center'],
-                y_center=row['y_center'],
-                width=row['width'],
-                height=row['height'],
-                confidence=row['confidence']
-            )
-            session.add(detection)
+            image_path = os.path.join(image_folder_path, row['filename'])
+            
+            # Check if the file is an image based on its extension
+            if not image_path.lower().endswith(image_extensions):
+                logger.warning(f"Skipping non-image file: {image_path}")
+                continue
+
+            try:
+                with open(image_path, 'rb') as img_file:
+                    image_data = img_file.read()
+
+                detection = DetectionData(
+                    filename=row['filename'],
+                    class_id=row['class_id'],
+                    x_center=row['x_center'],
+                    y_center=row['y_center'],
+                    width=row['width'],
+                    height=row['height'],
+                    confidence=row['confidence'],
+                    image_data=image_data
+                )
+                session.add(detection)
+            except FileNotFoundError:
+                logger.error(f"Image file not found: {image_path}")
+                continue
+
         session.commit()
         logger.info("Data inserted successfully.")
     except Exception as e:
-        logger.error(f"An error ocured while inserting data: {e}")
+        logger.error(f"An error occurred while inserting data: {e}")
         session.rollback()
     finally:
         session.close()

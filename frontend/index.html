@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detection Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Detection Management</h1>
+
+        <!-- Create Detection Section -->
+        <div class="form-section">
+            <h2>Create Detection</h2>
+            <input type="text" id="filename" placeholder="Filename" required>
+            <input type="number" id="class_id" placeholder="Class ID" required>
+            <input type="number" id="x_center" placeholder="X Center" required>
+            <input type="number" id="y_center" placeholder="Y Center" required>
+            <input type="number" id="width" placeholder="Width" required>
+            <input type="number" id="height" placeholder="Height" required>
+            <input type="number" id="confidence" placeholder="Confidence" required>
+            <button onclick="createDetection()">Create Detection</button>
+        </div>
+
+        <!-- Show All Detections Section -->
+        <div class="list-section">
+            <h2>All Detections</h2>
+            <button onclick="getAllDetections()">Show All Detections</button>
+            <table id="detectionsTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Filename</th>
+                        <th>Class ID</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <!-- Show Specific Detection Section -->
+        <div class="specific-section">
+            <h2>Show Detection by ID</h2>
+            <input type="number" id="detectionId" placeholder="Detection ID" required>
+            <button onclick="getDetectionById()">Show Detection</button>
+            <p id="detectionDetails"></p>
+        </div>
+
+        <!-- Update Detection Section -->
+        <div class="update-section">
+            <h2>Update Detection</h2>
+            <input type="number" id="updateId" placeholder="Detection ID" required>
+            <input type="text" id="updateFilename" placeholder="Filename">
+            <input type="number" id="updateClassId" placeholder="Class ID">
+            <input type="number" id="updateXCenter" placeholder="X Center">
+            <input type="number" id="updateYCenter" placeholder="Y Center">
+            <input type="number" id="updateWidth" placeholder="Width">
+            <input type="number" id="updateHeight" placeholder="Height">
+            <input type="number" id="updateConfidence" placeholder="Confidence">
+            <button onclick="updateDetection()">Update Detection</button>
+        </div>
+
+        <!-- Delete Detection Section -->
+        <div class="delete-section">
+            <h2>Delete Detection by ID</h2>
+            <input type="number" id="deleteId" placeholder="Detection ID" required>
+            <button onclick="deleteDetection()">Delete Detection</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
