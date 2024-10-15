@@ -22,3 +22,15 @@
 2024-10-15 11:22:18,752 - ERROR - error occured while geting the data by unique id
 2024-10-15 11:22:25,735 - ERROR - error occured while geting the data by unique id
 2024-10-15 11:22:25,735 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:26:21,526 - ERROR - An error occurred while updating data: (psycopg2.errors.NotNullViolation) null value in column "filename" of relation "detected_data" violates not-null constraint
+DETAIL:  Failing row contains (4, null, null, null, null, null, null, null).
+
+[SQL: UPDATE detected_data SET filename=%(filename)s, class_id=%(class_id)s, x_center=%(x_center)s, y_center=%(y_center)s, width=%(width)s, height=%(height)s, confidence=%(confidence)s WHERE detected_data.id = %(detected_data_id)s]
+[parameters: {'filename': None, 'class_id': None, 'x_center': None, 'y_center': None, 'width': None, 'height': None, 'confidence': None, 'detected_data_id': 4}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-10-15 11:26:21,526 - ERROR - An error occurred while updating data: (psycopg2.errors.NotNullViolation) null value in column "filename" of relation "detected_data" violates not-null constraint
+DETAIL:  Failing row contains (4, null, null, null, null, null, null, null).
+
+[SQL: UPDATE detected_data SET filename=%(filename)s, class_id=%(class_id)s, x_center=%(x_center)s, y_center=%(y_center)s, width=%(width)s, height=%(height)s, confidence=%(confidence)s WHERE detected_data.id = %(detected_data_id)s]
+[parameters: {'filename': None, 'class_id': None, 'x_center': None, 'y_center': None, 'width': None, 'height': None, 'confidence': None, 'detected_data_id': 4}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
