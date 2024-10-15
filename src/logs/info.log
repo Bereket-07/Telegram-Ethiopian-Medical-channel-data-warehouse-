@@ -110,3 +110,50 @@
 2024-10-15 11:22:25,735 - INFO - Getting the data by unique id
 2024-10-15 11:22:25,735 - ERROR - error occured while geting the data by unique id
 2024-10-15 11:22:25,735 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:24:08,338 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:24:08,344 - INFO - Getting the data by unique id
+2024-10-15 11:24:08,344 - INFO - Getting the data by unique id
+2024-10-15 11:24:16,225 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:24:16,232 - INFO - Getting the data by unique id
+2024-10-15 11:24:16,232 - INFO - Getting the data by unique id
+2024-10-15 11:24:29,617 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:24:29,617 - INFO - Getting the data by unique id
+2024-10-15 11:24:29,617 - INFO - Getting the data by unique id
+2024-10-15 11:24:31,688 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:24:31,689 - INFO - Getting the data by unique id
+2024-10-15 11:24:31,689 - INFO - Getting the data by unique id
+2024-10-15 11:24:33,667 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:24:33,667 - INFO - Getting the data by unique id
+2024-10-15 11:24:33,667 - INFO - Getting the data by unique id
+2024-10-15 11:24:36,758 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:24:36,765 - INFO - Getting the data by unique id
+2024-10-15 11:24:36,765 - INFO - Getting the data by unique id
+2024-10-15 11:24:39,765 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:24:39,765 - INFO - Getting the data by unique id
+2024-10-15 11:24:39,765 - INFO - Getting the data by unique id
+2024-10-15 11:26:21,478 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:26:21,485 - INFO - Getting the data by unique id
+2024-10-15 11:26:21,485 - INFO - Getting the data by unique id
+2024-10-15 11:26:21,495 - INFO - Updating the data by unique id
+2024-10-15 11:26:21,495 - INFO - Updating the data by unique id
+2024-10-15 11:26:21,526 - ERROR - An error occurred while updating data: (psycopg2.errors.NotNullViolation) null value in column "filename" of relation "detected_data" violates not-null constraint
+DETAIL:  Failing row contains (4, null, null, null, null, null, null, null).
+
+[SQL: UPDATE detected_data SET filename=%(filename)s, class_id=%(class_id)s, x_center=%(x_center)s, y_center=%(y_center)s, width=%(width)s, height=%(height)s, confidence=%(confidence)s WHERE detected_data.id = %(detected_data_id)s]
+[parameters: {'filename': None, 'class_id': None, 'x_center': None, 'y_center': None, 'width': None, 'height': None, 'confidence': None, 'detected_data_id': 4}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-10-15 11:26:21,526 - ERROR - An error occurred while updating data: (psycopg2.errors.NotNullViolation) null value in column "filename" of relation "detected_data" violates not-null constraint
+DETAIL:  Failing row contains (4, null, null, null, null, null, null, null).
+
+[SQL: UPDATE detected_data SET filename=%(filename)s, class_id=%(class_id)s, x_center=%(x_center)s, y_center=%(y_center)s, width=%(width)s, height=%(height)s, confidence=%(confidence)s WHERE detected_data.id = %(detected_data_id)s]
+[parameters: {'filename': None, 'class_id': None, 'x_center': None, 'y_center': None, 'width': None, 'height': None, 'confidence': None, 'detected_data_id': 4}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-10-15 12:08:31,686 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 12:08:31,716 - INFO - geting all the data
+2024-10-15 12:08:31,716 - INFO - geting all the data
+2024-10-15 12:08:35,648 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 12:08:35,648 - INFO - geting all the data
+2024-10-15 12:08:35,648 - INFO - geting all the data
+2024-10-15 12:08:59,251 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 12:08:59,256 - INFO - geting all the data
+2024-10-15 12:08:59,256 - INFO - geting all the data
