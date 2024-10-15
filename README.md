@@ -73,9 +73,9 @@ In this project, I developed a medical data pipeline by scraping data from a Tel
     └── 📁workflows
          └── 📃unittests.yml
 └── 📁frontend
-         └── **index.html**: ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-         └── - **styles.CSS**: ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
-         └── - **script.js**: ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+         └── 📃index.html
+         └── 📃styles.css
+         └── 📃script.js
 └── 📁myproject
          └── 📁analysis
          └── 📁logs

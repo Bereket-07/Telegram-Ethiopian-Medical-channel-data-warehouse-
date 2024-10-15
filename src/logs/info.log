@@ -157,3 +157,9 @@ DETAIL:  Failing row contains (4, null, null, null, null, null, null, null).
 2024-10-15 12:08:59,251 - INFO - Configuring the datbase connection using SQLAlchemy
 2024-10-15 12:08:59,256 - INFO - geting all the data
 2024-10-15 12:08:59,256 - INFO - geting all the data
+2024-10-15 12:10:59,706 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 12:10:59,710 - INFO - geting all the data
+2024-10-15 12:10:59,710 - INFO - geting all the data
+2024-10-15 12:11:34,676 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 12:11:34,676 - INFO - geting all the data
+2024-10-15 12:11:34,676 - INFO - geting all the data
