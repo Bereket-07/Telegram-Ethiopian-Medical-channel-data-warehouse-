@@ -1,0 +1,112 @@
+2024-10-15 10:14:34,132 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 10:14:34,148 - INFO - geting all the data
+2024-10-15 10:14:34,148 - INFO - geting all the data
+2024-10-15 10:17:00,441 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 10:17:00,448 - INFO - geting all the data
+2024-10-15 10:17:00,448 - INFO - geting all the data
+2024-10-15 10:17:27,512 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 10:17:27,519 - INFO - Getting the data by unique id
+2024-10-15 10:17:27,519 - INFO - Getting the data by unique id
+2024-10-15 10:17:27,524 - ERROR - error occured while geting the data by unique id
+2024-10-15 10:17:27,524 - ERROR - error occured while geting the data by unique id
+2024-10-15 10:17:42,208 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 10:17:42,214 - INFO - Getting the data by unique id
+2024-10-15 10:17:42,214 - INFO - Getting the data by unique id
+2024-10-15 10:17:42,216 - ERROR - error occured while geting the data by unique id
+2024-10-15 10:17:42,216 - ERROR - error occured while geting the data by unique id
+2024-10-15 10:17:44,816 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 10:17:44,816 - INFO - geting all the data
+2024-10-15 10:17:44,816 - INFO - geting all the data
+2024-10-15 11:05:03,279 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:05:03,283 - INFO - geting all the data
+2024-10-15 11:05:03,283 - INFO - geting all the data
+2024-10-15 11:12:13,750 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:12:13,756 - INFO - geting all the data
+2024-10-15 11:12:13,756 - INFO - geting all the data
+2024-10-15 11:15:37,858 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:15:37,866 - INFO - geting all the data
+2024-10-15 11:15:37,866 - INFO - geting all the data
+2024-10-15 11:15:39,077 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:15:39,079 - INFO - geting all the data
+2024-10-15 11:15:39,079 - INFO - geting all the data
+2024-10-15 11:17:05,077 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:17:05,081 - INFO - geting all the data
+2024-10-15 11:17:05,081 - INFO - geting all the data
+2024-10-15 11:17:05,668 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:17:05,668 - INFO - geting all the data
+2024-10-15 11:17:05,668 - INFO - geting all the data
+2024-10-15 11:17:06,071 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:17:06,071 - INFO - geting all the data
+2024-10-15 11:17:06,071 - INFO - geting all the data
+2024-10-15 11:17:06,400 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:17:06,400 - INFO - geting all the data
+2024-10-15 11:17:06,400 - INFO - geting all the data
+2024-10-15 11:17:06,567 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:17:06,567 - INFO - geting all the data
+2024-10-15 11:17:06,567 - INFO - geting all the data
+2024-10-15 11:19:21,637 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:19:21,649 - INFO - geting all the data
+2024-10-15 11:19:21,649 - INFO - geting all the data
+2024-10-15 11:19:22,527 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:19:22,530 - INFO - geting all the data
+2024-10-15 11:19:22,530 - INFO - geting all the data
+2024-10-15 11:19:22,913 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:19:22,913 - INFO - geting all the data
+2024-10-15 11:19:22,913 - INFO - geting all the data
+2024-10-15 11:19:23,027 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:19:23,027 - INFO - geting all the data
+2024-10-15 11:19:23,027 - INFO - geting all the data
+2024-10-15 11:19:23,561 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:19:23,561 - INFO - geting all the data
+2024-10-15 11:19:23,561 - INFO - geting all the data
+2024-10-15 11:19:27,748 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:19:27,755 - INFO - Getting the data by unique id
+2024-10-15 11:19:27,755 - INFO - Getting the data by unique id
+2024-10-15 11:19:27,755 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:19:27,755 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:19:32,057 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:19:32,059 - INFO - Getting the data by unique id
+2024-10-15 11:19:32,059 - INFO - Getting the data by unique id
+2024-10-15 11:19:32,059 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:19:32,059 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:19:32,648 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:19:32,651 - INFO - Getting the data by unique id
+2024-10-15 11:19:32,651 - INFO - Getting the data by unique id
+2024-10-15 11:19:32,651 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:19:32,651 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:19:32,860 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:19:32,863 - INFO - Getting the data by unique id
+2024-10-15 11:19:32,863 - INFO - Getting the data by unique id
+2024-10-15 11:19:32,864 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:19:32,864 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:20:11,008 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:20:11,011 - INFO - Getting the data by unique id
+2024-10-15 11:20:11,011 - INFO - Getting the data by unique id
+2024-10-15 11:20:11,011 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:20:11,011 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:20:13,646 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:20:13,652 - INFO - Getting the data by unique id
+2024-10-15 11:20:13,652 - INFO - Getting the data by unique id
+2024-10-15 11:20:13,653 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:20:13,653 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:21:07,652 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:21:07,653 - INFO - Getting the data by unique id
+2024-10-15 11:21:07,653 - INFO - Getting the data by unique id
+2024-10-15 11:21:07,654 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:21:07,654 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:21:39,412 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:21:39,412 - INFO - Getting the data by unique id
+2024-10-15 11:21:39,412 - INFO - Getting the data by unique id
+2024-10-15 11:21:39,416 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:21:39,416 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:22:13,483 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:22:18,748 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:22:18,748 - INFO - Getting the data by unique id
+2024-10-15 11:22:18,748 - INFO - Getting the data by unique id
+2024-10-15 11:22:18,752 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:22:18,752 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:22:25,735 - INFO - Configuring the datbase connection using SQLAlchemy
+2024-10-15 11:22:25,735 - INFO - Getting the data by unique id
+2024-10-15 11:22:25,735 - INFO - Getting the data by unique id
+2024-10-15 11:22:25,735 - ERROR - error occured while geting the data by unique id
+2024-10-15 11:22:25,735 - ERROR - error occured while geting the data by unique id
